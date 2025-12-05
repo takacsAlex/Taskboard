@@ -38,8 +38,9 @@ python run.py
 ```
 taskboard/
 
-** run.py                  #Starting file
-** README.md              # This document
+** run.py                 #Starting file
+** main.py                #The core of the application
+** components/            #Custom modules 
 
 ```
 
@@ -52,3 +53,8 @@ taskboard/
 * **Always push to theese branches!**
 * **If you are done with a task, please create a pull request to dev from your branch.**
 * **Your task will be analyzed by the author and if he approves, your branch can be merged to dev.**
+
+    ## Tasks
+        **The tasks are in TASK.md. If you complete a task, give it a striketrough style**
+
+---
