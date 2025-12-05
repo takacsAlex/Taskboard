@@ -1,6 +1,6 @@
 # Taskboard
 
-**Taskboard** is a simple task-management application built with Kivy. It helps you organize your work using a clean, board-style interface. The app is designed to be lightweight, customizable, and functional on both desktop and mobile platforms.
+**Taskboard** is a simple task-management application built with Kivy. It helps you organize your work using a clean, board-style interface. The app is designed to be in your project's folder and developers can pull tasks from it and also push new ones with notes.
 
 ---
 
