@@ -23,7 +23,6 @@ pip install kivy
 
 ```bash
 git clone https://github.com/takacsAlex/Taskboard
-cd Taskboard
 ```
 
 ### 3. Run the application
@@ -54,7 +53,7 @@ taskboard/
     ```bash
     git pull origin dev
     ```
-* **If you are doing more tasks, please do it in a another branch, which will be called: feature/Yourtask.**
+* **If you are doing more tasks, please do it in another branch, which will be called: feature/Yourtask.**
 * **Always push to theese branches!**
     ```bash
     git add .
