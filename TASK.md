@@ -10,4 +10,6 @@
 
 **Make create button(+) for creating new person or task**
 
+**Connect with SQLite3(later)**
+
 ---
