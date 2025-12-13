@@ -15,6 +15,7 @@ from kivy.graphics import Color, Rectangle
 
 #components
 from components.title import Title
+from components.task_frame import TaskBox
 
 
 class MainBoard(FloatLayout):
@@ -27,6 +28,8 @@ class MainBoard(FloatLayout):
             self.background = Rectangle(pos=(0, 500), size=(650, 100))
         self.title = Title()
         self.add_widget(self.title)
+        
+        self.add_widget(TaskBox())
         
 
 class TaskBoard(App):
