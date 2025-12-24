@@ -16,4 +16,6 @@
 
 **Connect with SQLite3(later)**
 
+**make dark and bright theme**
+
 ---

@@ -1,6 +1,8 @@
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.button import Button
     
+from components.task_component import TaskComponent    
+
 class TaskBoxModule(GridLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -15,10 +17,14 @@ class TaskBoxModule(GridLayout):
         self.widht = self.minimum_width
         self.bind(minimum_height=self.setter('height'))
         
+        
         #template only
         for i in range(self.count_task):
-            self.label = Button()
-            self.label.text = "task" + str(i + 1)
-            self.label.size_hint = (.5, None)
-            self.add_widget(self.label)
+            # self.label = Button()
+            # self.label.text = "task" + str(i + 1)
+            # self.label.size_hint = (.5, None)
+            # self.add_widget(self.label)
+            self.task = TaskComponent()
+            # self.task.size = (self.minimum_width, 100)
+            self.add_widget(self.task)
 
