@@ -33,19 +33,6 @@ python run.py
 
 ---
 
-## Project Structure
-
-```
-taskboard/
-
-** run.py                 #Starting file
-** main.py                #The core of the application
-** components/            #Custom modules 
-
-```
-
----
-
 ## For developers
 
 * **Create a new branch aged from dev and name it feature/Yourname.**
