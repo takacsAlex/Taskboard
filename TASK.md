@@ -12,7 +12,7 @@
 
 **Make create button(+) for creating new person or task**
 
-**Make database structure**
+~~**Make database structure**~~
 
 **Connect with SQLite3(later)**
 
