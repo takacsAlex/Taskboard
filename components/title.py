@@ -1,6 +1,5 @@
 from kivy.uix.label import Label
 from database.get_title import get_title
-
 import os
 
 class Title(Label):
